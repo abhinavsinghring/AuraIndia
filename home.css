@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #222;
+    background-color: rgb(46, 46, 46);
   }
   
   .header-nav {
@@ -58,4 +58,94 @@ body {
     color: #ea4f4c;
   }
   
-    
+.home-slider {
+  background-color: rgb(53, 53, 53);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between ;
+  overflow: hidden;
+  width: auto;
+  height: 300px;
+  margin: 15px;
+   
+}
+
+.home-slider-content {
+  width: auto;
+  aspect-ratio: 16 / 10;
+  padding: 15px;
+  background-image: url("assets/images/nature-3082832__480.jpg");
+  background-size: cover;
+  height: 300px;;
+}
+
+.home-slider-content-2 {
+  width: auto;
+  aspect-ratio: 16 / 10;
+  padding: 15px;
+  background-image: url("assets/images/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds_181624-11068.webp");
+  background-size: cover;
+  height: 300px;
+}
+
+.home-slider-content-3 {
+  width: auto;
+  aspect-ratio: 16 / 10;
+  padding: 15px;
+  background-image: url("assets/images/08d7db23658763dc69_21985349_1769420483350667_1878711711377129472_n.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 100px 0 100px;
+}
+
+.latest-news-heading {
+  margin: 15px 15px 15px 15px;
+  padding: 0 15px 0 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.top-stories-text {
+  color: white;
+  font-weight: bold;
+}
+
+.featured-stories {
+  margin: 15px 15px 15px 15px;
+  padding: 0 15px 0 15px;
+  border-radius: 8px;
+  width: 35%;
+}
+
+.featured-stories-text {
+  color: white;
+  font-weight: bold;
+}
+
+.news-card {
+  display: inline-flex;
+  padding: 0 15px 0 15px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 8px;
+  width: 255px;
+  height: 400px;
+  margin: 0 8px 8px 0;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.121);
+}
+
+.featured-card {
+  display: inline-flex;
+  padding: 0 15px 0 15px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 8px;
+  width: 273px;
+  height: 120px;
+  margin: 0 8px 8px 0;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.121);
+}
